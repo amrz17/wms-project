@@ -1,6 +1,8 @@
 import { IconListDetails, IconPackage, IconPackageOff, IconPackages, IconTrendingDown, IconTrendingUp } from "@tabler/icons-react"
 
-import { Badge } from "@/components/ui/badge"
+// import { getTotalProducts } from '../app/api/routes'
+import { ProductCountCard, StockCountCard } from "./count";
+
 import {
   Card,
   CardAction2,
@@ -10,7 +12,25 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
+// import { useEffect, useState } from "react";
+
+
 export function SectionCards() {
+  // const [totalProducts, setTotalProducts] = useState(0);
+
+  // useEffect(() => {
+  //   async function fetchTotalProducts() {
+  //     try {
+  //       const products = await getTotalProducts(); // ambil data dari fungsi async
+  //       setTotalProducts(products.length); // contoh: menampilkan jumlah produk
+  //     } catch (error) {
+  //       console.error("Error fetching total products:", error);
+  //     }
+  //   }
+
+  //   fetchTotalProducts();
+  // }, []);
+
   return (
     <div className="*:data-[slot=card]:from-primary/5 *:data-[slot=card]:to-card dark:*:data-[slot=card]:bg-card grid grid-cols-1 gap-4 px-4 *:data-[slot=card]:bg-gradient-to-t *:data-[slot=card]:shadow-xs lg:px-6 @xl/main:grid-cols-2 @5xl/main:grid-cols-4">
       <Card className="@container/card">
@@ -19,9 +39,9 @@ export function SectionCards() {
             <IconPackage />
           </CardAction2>
           <CardDescription>Total Product</CardDescription>
-          <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            1,250
-          </CardTitle>
+          {/* <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl"> */}
+            <ProductCountCard />
+          {/* </CardTitle> */}
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">
@@ -57,9 +77,7 @@ export function SectionCards() {
             <IconPackages />
           </CardAction2>
           <CardDescription>Total Stock</CardDescription>
-          <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            45,678
-          </CardTitle>
+          <StockCountCard />
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">

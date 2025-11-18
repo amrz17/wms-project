@@ -1,0 +1,260 @@
+// Data dummy untuk di-seed
+export const users = [
+  {
+    name: 'Dandi Dejan Krick',
+    username: 'Admin',
+    email: 'admin@example.com',
+    password: 'admin123',
+    role: 'admin'
+  },
+  {
+    name: 'Ambar Smith',
+    username: 'Ambar',
+    email: 'ambar@gmail.com',
+    password: 'password123',
+    role: 'staff'
+  },
+];
+
+export const m_items = [
+  {
+    id_item: 1,
+    item_code: "ITM001",
+    item_name: "Laptop ASUS ROG Zephyrus G14",
+    sku: "SKU-LTP-ASUS-G14",
+    category: "Laptop",
+    location: "RACK-A1",
+    stock: 10,
+    min_stock: 2,
+    max_stock: 20,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 2,
+    item_code: "ITM002",
+    item_name: "Laptop Lenovo ThinkPad X1 Carbon",
+    sku: "SKU-LTP-LEN-X1C",
+    category: "Laptop",
+    location: "RACK-A2",
+    stock: 8,
+    min_stock: 2,
+    max_stock: 15,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 3,
+    item_code: "ITM003",
+    item_name: "Monitor Dell UltraSharp 27”",
+    sku: "SKU-MON-DELL-U27",
+    category: "Monitor",
+    location: "RACK-B1",
+    stock: 15,
+    min_stock: 5,
+    max_stock: 30,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 4,
+    item_code: "ITM004",
+    item_name: "Keyboard Logitech MX Keys",
+    sku: "SKU-KBD-LOGI-MXK",
+    category: "Peripheral",
+    location: "RACK-C1",
+    stock: 25,
+    min_stock: 5,
+    max_stock: 50,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 5,
+    item_code: "ITM005",
+    item_name: "Mouse Logitech MX Master 3S",
+    sku: "SKU-MSE-LOGI-MX3S",
+    category: "Peripheral",
+    location: "RACK-C2",
+    stock: 30,
+    min_stock: 10,
+    max_stock: 60,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 6,
+    item_code: "ITM006",
+    item_name: "SSD Samsung 980 Pro 1TB",
+    sku: "SKU-SSD-SMSNG-980P1TB",
+    category: "Storage",
+    location: "RACK-D1",
+    stock: 20,
+    min_stock: 5,
+    max_stock: 40,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 7,
+    item_code: "ITM007",
+    item_name: "RAM Corsair Vengeance 16GB DDR4",
+    sku: "SKU-RAM-COR-16GB",
+    category: "Memory",
+    location: "RACK-E1",
+    stock: 40,
+    min_stock: 10,
+    max_stock: 80,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 8,
+    item_code: "ITM008",
+    item_name: "Motherboard ASUS Prime B550M-A",
+    sku: "SKU-MBD-ASUS-B550M",
+    category: "Component",
+    location: "RACK-F1",
+    stock: 12,
+    min_stock: 3,
+    max_stock: 25,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 9,
+    item_code: "ITM009",
+    item_name: "Power Supply Cooler Master 650W",
+    sku: "SKU-PSU-CM-650W",
+    category: "Component",
+    location: "RACK-F2",
+    stock: 18,
+    min_stock: 5,
+    max_stock: 35,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 10,
+    item_code: "ITM010",
+    item_name: "Graphics Card NVIDIA RTX 4070",
+    sku: "SKU-GPU-NVIDIA-4070",
+    category: "GPU",
+    location: "RACK-G1",
+    stock: 6,
+    min_stock: 2,
+    max_stock: 12,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 11,
+    item_code: "ITM011",
+    item_name: "External HDD Seagate 2TB",
+    sku: "SKU-HDD-SEA-2TB",
+    category: "Storage",
+    location: "RACK-D2",
+    stock: 25,
+    min_stock: 5,
+    max_stock: 50,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 12,
+    item_code: "ITM012",
+    item_name: "Router TP-Link Archer AX20",
+    sku: "SKU-RT-TP-AX20",
+    category: "Networking",
+    location: "RACK-H1",
+    stock: 14,
+    min_stock: 4,
+    max_stock: 30,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 13,
+    item_code: "ITM013",
+    item_name: "Switch Cisco 24-Port Gigabit",
+    sku: "SKU-SW-CISCO-24G",
+    category: "Networking",
+    location: "RACK-H2",
+    stock: 10,
+    min_stock: 2,
+    max_stock: 20,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 14,
+    item_code: "ITM014",
+    item_name: "Printer HP LaserJet Pro M404dn",
+    sku: "SKU-PRN-HP-M404",
+    category: "Printer",
+    location: "RACK-I1",
+    stock: 8,
+    min_stock: 2,
+    max_stock: 15,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 15,
+    item_code: "ITM015",
+    item_name: "Scanner Canon CanoScan LiDE 400",
+    sku: "SKU-SCN-CAN-L400",
+    category: "Scanner",
+    location: "RACK-I2",
+    stock: 7,
+    min_stock: 2,
+    max_stock: 12,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 16,
+    item_code: "ITM016",
+    item_name: "UPS APC Back-UPS 1100VA",
+    sku: "SKU-UPS-APC-1100",
+    category: "Power",
+    location: "RACK-J1",
+    stock: 10,
+    min_stock: 3,
+    max_stock: 20,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 17,
+    item_code: "ITM017",
+    item_name: "Webcam Logitech C920 HD Pro",
+    sku: "SKU-WBC-LOGI-C920",
+    category: "Peripheral",
+    location: "RACK-K1",
+    stock: 22,
+    min_stock: 5,
+    max_stock: 45,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 18,
+    item_code: "ITM018",
+    item_name: "Microphone Razer Seiren Mini",
+    sku: "SKU-MIC-RAZ-SMN",
+    category: "Audio",
+    location: "RACK-K2",
+    stock: 16,
+    min_stock: 3,
+    max_stock: 30,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 19,
+    item_code: "ITM019",
+    item_name: "Headset HyperX Cloud II",
+    sku: "SKU-HST-HX-C2",
+    category: "Audio",
+    location: "RACK-K3",
+    stock: 25,
+    min_stock: 5,
+    max_stock: 50,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  },
+  {
+    id_item: 20,
+    item_code: "ITM020",
+    item_name: "Docking Station Anker PowerExpand",
+    sku: "SKU-DCK-ANK-PE",
+    category: "Accessory",
+    location: "RACK-L1",
+    stock: 12,
+    min_stock: 3,
+    max_stock: 25,
+    id_user: "45fd0aab-9e5a-4ca9-bef2-ed7f0755c4e8"
+  }
+]
