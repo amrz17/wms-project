@@ -44,11 +44,8 @@ export function SectionCards() {
           {/* </CardTitle> */}
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
-          <div className="line-clamp-1 flex gap-2 font-medium">
-            Trending up this month <IconTrendingUp className="size-4" />
-          </div>
           <div className="text-muted-foreground">
-            Visitors for the last 6 months
+            Total stock keeping unit shows the numbers of unique product types in the warehouse
           </div>
         </CardFooter>
       </Card>
@@ -59,12 +56,12 @@ export function SectionCards() {
           </CardAction2>
           <CardDescription>Orders</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            900
+          0
           </CardTitle>
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
           <div className="line-clamp-1 flex gap-2 font-medium">
-            Down 20% this period <IconTrendingDown className="size-4" />
+            Down 0% this period <IconTrendingDown className="size-4" />
           </div>
           <div className="text-muted-foreground">
             Acquisition needs attention
@@ -80,10 +77,9 @@ export function SectionCards() {
           <StockCountCard />
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
-          <div className="line-clamp-1 flex gap-2 font-medium">
-            Strong user retention <IconTrendingUp className="size-4" />
+          <div className="text-muted-foreground">
+            Total Stock shows the total quantity of all items
           </div>
-          <div className="text-muted-foreground">Engagement exceed targets</div>
         </CardFooter>
       </Card>
       <Card className="@container/card">
@@ -93,14 +89,13 @@ export function SectionCards() {
           </CardAction2>
           <CardDescription>Out Of Stock</CardDescription>
           <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">
-            456
+            0
           </CardTitle>
         </CardHeader>
         <CardFooter className="flex-col items-start gap-1.5 text-sm">
-          <div className="line-clamp-1 flex gap-2 font-medium">
-            Steady performance increase <IconTrendingUp className="size-4" />
+          <div className="text-muted-foreground">
+            Out of stock show the number of products with zer available quantity
           </div>
-          <div className="text-muted-foreground">Meets growth projections</div>
         </CardFooter>
       </Card>
     </div>
