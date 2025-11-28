@@ -54,7 +54,7 @@ export async function getTotalStocks() {
 // Endpoint GET untuk ambil total produk
 export async function GET() {
   try {
-    const result = await getTotalProducts(); // ⬅️ tambahkan await
+    const result = await getTotalProducts(); //
     return NextResponse.json({
       totalProducts: result[0].count, // PostgreSQL mengembalikan string 'count'
     });

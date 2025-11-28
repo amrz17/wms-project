@@ -46,82 +46,39 @@ const data = {
   },
   navMain: [
     {
+      title: "Dashboard",
+      url: "/dashboard",
+      icon: IconDashboard,
+    },
+    {
       title: "Inventory",
-      url: "#",
+      url: "/inventory",
       icon: IconPackages,
     },
     {
       title: "Orders",
-      url: "#",
+      url: "/orders",
       icon: IconListDetails,
     },
     {
       title: "Purchase",
-      url: "#",
+      url: "/purchase",
       icon: IconReceiptDollar,
     },
     {
       title: "Reporting",
-      url: "#",
+      url: "/reporting",
       icon:  IconChartBar,
     },
     {
       title: "Support",
-      url: "#",
+      url: "/support",
       icon: IconUsers,
     },
     {
       title: "Settings",
-      url: "#",
+      url: "/settings",
       icon: IconSettings,
-    },
-  ],
-  navClouds: [
-    {
-      title: "Capture",
-      icon: IconCamera,
-      isActive: true,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Proposal",
-      icon: IconFileDescription,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Prompts",
-      icon: IconFileAi,
-      url: "#",
-      items: [
-        {
-          title: "Active Proposals",
-          url: "#",
-        },
-        {
-          title: "Archived",
-          url: "#",
-        },
-      ],
     },
   ],
 }
@@ -136,7 +93,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               asChild
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
-              <a href="#">
+              <a href="/">
                 <IconInnerShadowTop className="!size-5" />
                 <span className="text-base font-semibold">Lumbung Digital solution</span>
               </a>

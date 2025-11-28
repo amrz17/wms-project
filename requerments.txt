@@ -1,0 +1,51 @@
+LAPORAN FITUR WMS (WAREHOUSE MANAGEMENT SYSTEM)
+
+1. DASHBOARD
+   - Menampilkan ringkasan kondisi gudang secara real-time.
+   - Menyajikan data stock summary, order status, inbound/outbound activity.
+   - Memuat KPI gudang seperti akurasi stok, performa picking, dan SLA.
+   - Menampilkan notifikasi untuk stok habis, pesanan terlambat, dan alert penting lainnya.
+
+2. INVENTORY
+   - Mengelola daftar SKU serta detail barang.
+   - Menampilkan jumlah stok: on hand, allocated, dan available.
+   - Mencatat mutasi stok (inbound, outbound, adjustment).
+   - Mendukung stok opname/cycle count.
+   - Mengatur layout gudang: bin, slot, pallet, zone.
+   - Mendukung batch/lot tracking dan expiry date jika dibutuhkan.
+
+3. ORDERS
+   - Mengelola pesanan outbound dari marketplace atau sistem lain.
+   - Menyediakan picking list, wave picking, dan proses picking.
+   - Mengatur proses packing dan konfirmasi barang.
+   - Fitur shipping: pemilihan kurir, cetak label, dan update status pengiriman.
+   - Memantau status order dari received → picked → packed → shipped.
+
+4. PURCHASE
+   - Mengelola purchase order (PO) dan inbound barang.
+   - Fitur receiving untuk proses penerimaan barang.
+   - Fitur putaway untuk menempatkan barang ke rak.
+   - Menyimpan data supplier dan histori pembelian.
+   - Menangani inbound discrepancy (barang kurang/lebih atau rusak).
+
+5. REPORTING
+   - Menyediakan laporan persediaan, fast/slow moving item.
+   - Menyajikan laporan inbound dan outbound.
+   - Laporan pengiriman, order fulfillment, SLA, dan akurasi picking.
+   - Menyediakan laporan mutasi stok dan audit trail.
+   - Mendukung export ke Excel/CSV dan tampilan grafik.
+
+6. SETTINGS
+   - Mengatur user, role, dan permission akses.
+   - Konfigurasi warehouse: zona, jenis lokasi, aturan picking/putaway.
+   - Integrasi API ke marketplace, ERP, dan shipping provider.
+   - Pengaturan template label, barcode, invoice, dan packing slip.
+   - Aturan workflow seperti auto-allocation dan batch picking.
+
+7. SUPPORT
+   - Menyediakan dokumentasi, help center, dan panduan penggunaan.
+   - Sistem tiket untuk melaporkan dan melacak masalah.
+   - Live chat atau kontak support jika tersedia.
+   - Menyediakan materi training atau tutorial.
+
+SELESAI
