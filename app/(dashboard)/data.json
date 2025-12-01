@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "id_item": "ITEM-001",
+    "movement_type": "IN",
+    "quantity": 18,
+    "date_movement": "30-11-2025",
+    "update_at": "30-11-2025"
+  }
+]

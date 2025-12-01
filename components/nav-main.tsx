@@ -28,19 +28,6 @@ export function NavMain({
   return (
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">
-        {/* <SidebarMenu>
-          <SidebarMenuItem className="flex items-center gap-2">
-            <SidebarMenuButton
-              tooltip="Quick Create"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear"
-            >
-              <IconDashboard />
-              <Link href="/dashboard">
-                <span>Dashboard</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu> */}
         <SidebarMenu>
           {items.map((item) => {
 
@@ -50,7 +37,7 @@ export function NavMain({
               <SidebarMenuItem key={item.title} className="flex items-center gap-2">
                   <Link 
                       href={item.url}
-                      className={`min-w-8 w-full rounded-3xl duration-200 ease-linear ${
+                      className={`min-w-8 w-full rounded-md duration-200 ease-linear ${
                         isActive
                           ? "bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground"
                           : "hover:bg-muted hover:text-foreground"

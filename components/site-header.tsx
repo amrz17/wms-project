@@ -3,6 +3,7 @@ import { Switch } from "@/components/ui/switch"
 import { Separator } from "@/components/ui/separator"
 import { SidebarTrigger } from "@/components/ui/sidebar"
 import { IconBell } from "@tabler/icons-react"
+import { dataPage } from "@/app/(dashboard)/const"
 
 export function SiteHeader() {
   return (
@@ -13,7 +14,15 @@ export function SiteHeader() {
           orientation="vertical"
           className="mx-2 data-[orientation=vertical]:h-4"
         />
-        <h1 className="text-base font-medium">Welcome Admin!</h1>
+        {/* {dataPage.map((data, index) => (
+          <h1 className="text-base font-medium" key={index}>
+            {data.title}
+          </h1>
+
+        ))} */}
+        <h1 className="text-base font-medium">
+          Welcome Admin!
+        </h1>
         <div className="ml-auto flex items-center gap-2">
           <IconBell />
           <Switch />
