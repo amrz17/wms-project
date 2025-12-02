@@ -1,0 +1,456 @@
+[
+  {
+    "id": 1,
+    "id_item": "cf08bd96-5029-4ec9-88f6-4c419e1e8e59",
+    "item_code": "ITM001",
+    "item_name": "Laptop Lenovo ThinkPad X1 Carbon",
+    "location": "RACK-A1",
+    "quantity": 28,
+    "update_at": "30-11-2025"
+  },
+  {
+    "id": 2,
+    "id_item": "a3d3c6e1-145e-4b47-9b82-41eb8f4b2c33",
+    "item_code": "ITM002",
+    "item_name": "Monitor Dell UltraSharp 24\"",
+    "location": "RACK-A2",
+    "quantity": 15,
+    "update_at": "29-11-2025"
+  },
+  {
+    "id": 3,
+    "id_item": "b915d51b-f32b-4f74-8e5d-7e0cb45391b2",
+    "item_code": "ITM003",
+    "item_name": "Keyboard Mechanical Logitech G Pro",
+    "location": "RACK-A3",
+    "quantity": 40,
+    "update_at": "28-11-2025"
+  },
+  {
+    "id": 4,
+    "id_item": "0eac9cb1-8359-4d41-a6e9-8a78061efbe3",
+    "item_code": "ITM004",
+    "item_name": "Mouse Razer DeathAdder V3",
+    "location": "RACK-A4",
+    "quantity": 33,
+    "update_at": "27-11-2025"
+  },
+  {
+    "id": 5,
+    "id_item": "92b443fb-474c-4dfb-8338-b762f1f807d0",
+    "item_code": "ITM005",
+    "item_name": "Printer Epson L3250",
+    "location": "RACK-A5",
+    "quantity": 12,
+    "update_at": "26-11-2025"
+  },
+  {
+    "id": 6,
+    "id_item": "71dc7101-bdae-4828-a2f0-63d20496e22d",
+    "item_code": "ITM006",
+    "item_name": "Router TP-Link Archer AX50",
+    "location": "RACK-B1",
+    "quantity": 20,
+    "update_at": "25-11-2025"
+  },
+  {
+    "id": 7,
+    "id_item": "7d4d9ede-a689-4a76-a89a-335faa3dbe4c",
+    "item_code": "ITM007",
+    "item_name": "SSD Samsung 970 EVO 1TB",
+    "location": "RACK-B2",
+    "quantity": 50,
+    "update_at": "24-11-2025"
+  },
+  {
+    "id": 8,
+    "id_item": "0096f2ad-9835-40c7-9007-faf8de370bcb",
+    "item_code": "ITM008",
+    "item_name": "Harddisk Seagate 2TB",
+    "location": "RACK-B3",
+    "quantity": 22,
+    "update_at": "23-11-2025"
+  },
+  {
+    "id": 9,
+    "id_item": "6f7c3482-d497-44ab-8bb1-fd95b1e5db2e",
+    "item_code": "ITM009",
+    "item_name": "RAM Corsair Vengeance 16GB",
+    "location": "RACK-B4",
+    "quantity": 34,
+    "update_at": "22-11-2025"
+  },
+  {
+    "id": 10,
+    "id_item": "3b501cf4-9d0d-4b28-aa67-556fd5f6330b",
+    "item_code": "ITM010",
+    "item_name": "Proyektor Epson EB-X500",
+    "location": "RACK-B5",
+    "quantity": 8,
+    "update_at": "21-11-2025"
+  },
+
+  {
+    "id": 11,
+    "id_item": "9fd01b31-63b4-4e11-a996-34f9df5bea47",
+    "item_code": "ITM011",
+    "item_name": "Kabel HDMI 2 Meter",
+    "location": "RACK-C1",
+    "quantity": 100,
+    "update_at": "20-11-2025"
+  },
+  {
+    "id": 12,
+    "id_item": "4b3f7878-54dc-42fa-a0f9-dbb8a80253db",
+    "item_code": "ITM012",
+    "item_name": "Kabel LAN Cat6",
+    "location": "RACK-C2",
+    "quantity": 75,
+    "update_at": "19-11-2025"
+  },
+  {
+    "id": 13,
+    "id_item": "193e23c5-eb19-4b0f-95e7-e5b18c24df6d",
+    "item_code": "ITM013",
+    "item_name": "Webcam Logitech C920",
+    "location": "RACK-C3",
+    "quantity": 17,
+    "update_at": "18-11-2025"
+  },
+  {
+    "id": 14,
+    "id_item": "479c613b-c2f4-4f76-a308-6e5a5cbf41c1",
+    "item_code": "ITM014",
+    "item_name": "Speaker Bluetooth JBL Go 3",
+    "location": "RACK-C4",
+    "quantity": 29,
+    "update_at": "17-11-2025"
+  },
+  {
+    "id": 15,
+    "id_item": "8e511ff3-b689-4eb4-8b5e-27f35e199e8c",
+    "item_code": "ITM015",
+    "item_name": "USB Flashdisk Sandisk 32GB",
+    "location": "RACK-C5",
+    "quantity": 120,
+    "update_at": "16-11-2025"
+  },
+  {
+    "id": 16,
+    "id_item": "c2e8f255-1881-4d7b-a0de-acc4df492a8b",
+    "item_code": "ITM016",
+    "item_name": "Laptop ASUS VivoBook 14",
+    "location": "RACK-D1",
+    "quantity": 14,
+    "update_at": "15-11-2025"
+  },
+  {
+    "id": 17,
+    "id_item": "0c74eb6f-ba52-4a21-b028-b69b1d59e39c",
+    "item_code": "ITM017",
+    "item_name": "Laptop HP Pavilion 13",
+    "location": "RACK-D2",
+    "quantity": 10,
+    "update_at": "14-11-2025"
+  },
+  {
+    "id": 18,
+    "id_item": "999d640b-5ac8-4fab-8d77-bfa22a2ac819",
+    "item_code": "ITM018",
+    "item_name": "Monitor Samsung 27\"",
+    "location": "RACK-D3",
+    "quantity": 18,
+    "update_at": "13-11-2025"
+  },
+  {
+    "id": 19,
+    "id_item": "897428e4-0ebc-4537-aa4c-cf1f1b73d7ce",
+    "item_code": "ITM019",
+    "item_name": "Scanner Canon Lide 300",
+    "location": "RACK-D4",
+    "quantity": 6,
+    "update_at": "12-11-2025"
+  },
+  {
+    "id": 20,
+    "id_item": "4bc91ff4-83fe-4c31-af58-ea27fce06892",
+    "item_code": "ITM020",
+    "item_name": "UPS APC 650VA",
+    "location": "RACK-D5",
+    "quantity": 11,
+    "update_at": "11-11-2025"
+  },
+
+  {
+    "id": 21,
+    "id_item": "a1e51b12-879b-4bc6-9b38-1d96d7b9201a",
+    "item_code": "ITM021",
+    "item_name": "MicroSD 64GB Sandisk",
+    "location": "RACK-E1",
+    "quantity": 95,
+    "update_at": "10-11-2025"
+  },
+  {
+    "id": 22,
+    "id_item": "f2ce7100-322b-4059-a1fb-a574ea47adc5",
+    "item_code": "ITM022",
+    "item_name": "Adaptor Laptop Lenovo 65W",
+    "location": "RACK-E2",
+    "quantity": 30,
+    "update_at": "09-11-2025"
+  },
+  {
+    "id": 23,
+    "id_item": "2e752009-4fb7-4e98-a315-e0b3bc6d06d7",
+    "item_code": "ITM023",
+    "item_name": "Adaptor Laptop ASUS 45W",
+    "location": "RACK-E3",
+    "quantity": 25,
+    "update_at": "08-11-2025"
+  },
+  {
+    "id": 24,
+    "id_item": "3cc93a4d-89fb-49d0-bdb6-c8de9a28101f",
+    "item_code": "ITM024",
+    "item_name": "Adaptor Laptop HP 65W",
+    "location": "RACK-E4",
+    "quantity": 21,
+    "update_at": "07-11-2025"
+  },
+  {
+    "id": 25,
+    "id_item": "8e6b96f9-0486-4b66-b943-380d724d912c",
+    "item_code": "ITM025",
+    "item_name": "Cooling Pad Laptop NYK",
+    "location": "RACK-E5",
+    "quantity": 13,
+    "update_at": "06-11-2025"
+  },
+  {
+    "id": 26,
+    "id_item": "a65db6fe-f754-43bc-8e03-a7cb7055f362",
+    "item_code": "ITM026",
+    "item_name": "Laptop Dell Latitude 5490",
+    "location": "RACK-F1",
+    "quantity": 9,
+    "update_at": "05-11-2025"
+  },
+  {
+    "id": 27,
+    "id_item": "ce3e3d46-9b73-420f-9dcd-1a8c7c5de2ed",
+    "item_code": "ITM027",
+    "item_name": "Laptop Acer Aspire 5",
+    "location": "RACK-F2",
+    "quantity": 7,
+    "update_at": "04-11-2025"
+  },
+  {
+    "id": 28,
+    "id_item": "35e04e96-93da-4d03-9214-730b5c5c7a59",
+    "item_code": "ITM028",
+    "item_name": "Mouse Wireless Logitech M185",
+    "location": "RACK-F3",
+    "quantity": 60,
+    "update_at": "03-11-2025"
+  },
+  {
+    "id": 29,
+    "id_item": "bd8b7c88-056c-4dfb-93ab-fb2a7d45b3cf",
+    "item_code": "ITM029",
+    "item_name": "Keyboard Wireless Logitech MK220",
+    "location": "RACK-F4",
+    "quantity": 44,
+    "update_at": "02-11-2025"
+  },
+  {
+    "id": 30,
+    "id_item": "a4427bcf-7c99-45b1-a415-94fa6222eaaf",
+    "item_code": "ITM030",
+    "item_name": "Powerbank Anker 20.000mAh",
+    "location": "RACK-F5",
+    "quantity": 19,
+    "update_at": "01-11-2025"
+  },
+
+  {
+    "id": 31,
+    "id_item": "de6843e0-02b3-446e-a82e-0a87d3eef5c9",
+    "item_code": "ITM031",
+    "item_name": "Laptop MacBook Pro M1",
+    "location": "RACK-G1",
+    "quantity": 5,
+    "update_at": "30-11-2025"
+  },
+  {
+    "id": 32,
+    "id_item": "3d65dc84-2a2a-4f52-88e2-fc4d6c2a91b8",
+    "item_code": "ITM032",
+    "item_name": "iPad Air 2022",
+    "location": "RACK-G2",
+    "quantity": 9,
+    "update_at": "29-11-2025"
+  },
+  {
+    "id": 33,
+    "id_item": "dea89b44-6dd2-4dd3-84b4-dab2dd9daf44",
+    "item_code": "ITM033",
+    "item_name": "Apple Magic Mouse",
+    "location": "RACK-G3",
+    "quantity": 14,
+    "update_at": "28-11-2025"
+  },
+  {
+    "id": 34,
+    "id_item": "fcfbbd34-83b2-4dc3-8e27-a914a3598572",
+    "item_code": "ITM034",
+    "item_name": "Apple Magic Keyboard",
+    "location": "RACK-G4",
+    "quantity": 13,
+    "update_at": "27-11-2025"
+  },
+  {
+    "id": 35,
+    "id_item": "e1c8460d-16ff-4a49-8e5d-d03e472e85c7",
+    "item_code": "ITM035",
+    "item_name": "AirPods Pro 2",
+    "location": "RACK-G5",
+    "quantity": 16,
+    "update_at": "26-11-2025"
+  },
+  {
+    "id": 36,
+    "id_item": "8c004b72-554a-4911-9f46-1f5bc8eaa3f6",
+    "item_code": "ITM036",
+    "item_name": "Tripod Takara Eco 173A",
+    "location": "RACK-H1",
+    "quantity": 21,
+    "update_at": "25-11-2025"
+  },
+  {
+    "id": 37,
+    "id_item": "d879380c-3b83-4af0-9c8d-dd871ddf28a2",
+    "item_code": "ITM037",
+    "item_name": "Microphone BM800",
+    "location": "RACK-H2",
+    "quantity": 18,
+    "update_at": "24-11-2025"
+  },
+  {
+    "id": 38,
+    "id_item": "f20742a1-0b1c-43bc-993c-a3468b8da5c0",
+    "item_code": "ITM038",
+    "item_name": "Capture Card Ezcap 261",
+    "location": "RACK-H3",
+    "quantity": 14,
+    "update_at": "23-11-2025"
+  },
+  {
+    "id": 39,
+    "id_item": "e4d055ff-c48a-4d15-9c76-f6f4e317e7d4",
+    "item_code": "ITM039",
+    "item_name": "Soundcard V8S",
+    "location": "RACK-H4",
+    "quantity": 12,
+    "update_at": "22-11-2025"
+  },
+  {
+    "id": 40,
+    "id_item": "9a81cc3e-877d-4dda-bdfa-fcfc2cd61f30",
+    "item_code": "ITM040",
+    "item_name": "Green Screen Background",
+    "location": "RACK-H5",
+    "quantity": 7,
+    "update_at": "21-11-2025"
+  },
+
+  {
+    "id": 41,
+    "id_item": "70e51d60-c959-4e24-9fd6-f0cbbf532f82",
+    "item_code": "ITM041",
+    "item_name": "Handy Talky Baofeng UV-5R",
+    "location": "RACK-I1",
+    "quantity": 25,
+    "update_at": "20-11-2025"
+  },
+  {
+    "id": 42,
+    "id_item": "3d12486b-32d0-48dc-a865-05b1d406ecd1",
+    "item_code": "ITM042",
+    "item_name": "Walkie Talkie Motorola T80",
+    "location": "RACK-I2",
+    "quantity": 11,
+    "update_at": "19-11-2025"
+  },
+  {
+    "id": 43,
+    "id_item": "68bdd0c2-4f71-4ebe-a184-a02ae2365e63",
+    "item_code": "ITM043",
+    "item_name": "CCTV Camera Hikvision",
+    "location": "RACK-I3",
+    "quantity": 30,
+    "update_at": "18-11-2025"
+  },
+  {
+    "id": 44,
+    "id_item": "82fbdd4a-fefb-4d6b-b969-e51d30184ee8",
+    "item_code": "ITM044",
+    "item_name": "NVR Hikvision 8 Channel",
+    "location": "RACK-I4",
+    "quantity": 6,
+    "update_at": "17-11-2025"
+  },
+  {
+    "id": 45,
+    "id_item": "ae07bfc3-9127-45eb-bc41-ebf90dbbeabf",
+    "item_code": "ITM045",
+    "item_name": "Access Point Ubiquiti UAP-AC Lite",
+    "location": "RACK-I5",
+    "quantity": 18,
+    "update_at": "16-11-2025"
+  },
+  {
+    "id": 46,
+    "id_item": "62e7c073-0946-4db6-b27e-36dede8fefcf",
+    "item_code": "ITM046",
+    "item_name": "Switch TP-Link 8 Port",
+    "location": "RACK-J1",
+    "quantity": 22,
+    "update_at": "15-11-2025"
+  },
+  {
+    "id": 47,
+    "id_item": "89cd187c-b42a-444b-bd94-0bb1521cebb2",
+    "item_code": "ITM047",
+    "item_name": "Switch Cisco 16 Port",
+    "location": "RACK-J2",
+    "quantity": 17,
+    "update_at": "14-11-2025"
+  },
+  {
+    "id": 48,
+    "id_item": "4edcfa55-bdaa-4fb8-afb2-b47438cf1f47",
+    "item_code": "ITM048",
+    "item_name": "Modem Huawei B310",
+    "location": "RACK-J3",
+    "quantity": 10,
+    "update_at": "13-11-2025"
+  },
+  {
+    "id": 49,
+    "id_item": "1517a535-e501-4a87-8c91-b8db624b9081",
+    "item_code": "ITM049",
+    "item_name": "Kabel Power Universal",
+    "location": "RACK-J4",
+    "quantity": 55,
+    "update_at": "12-11-2025"
+  },
+  {
+    "id": 50,
+    "id_item": "b6c7f7e0-086d-45ad-9721-ae6e3bf46a3f",
+    "item_code": "ITM050",
+    "item_name": "Converter USB to HDMI",
+    "location": "RACK-J5",
+    "quantity": 16,
+    "update_at": "11-11-2025"
+  }
+]
