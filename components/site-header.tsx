@@ -20,9 +20,9 @@ export function SiteHeader() {
           </h1>
 
         ))} */}
-        <h1 className="text-base font-medium">
+        {/* <h1 className="text-base font-medium">
           Welcome Admin!
-        </h1>
+        </h1> */}
         <div className="ml-auto flex items-center gap-2">
           <IconBell />
           <Switch />
